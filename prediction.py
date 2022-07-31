@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 import json
 
-def predict (data, model_path): 
+def predict (data, model_path='model'): 
     '''
     data: data to get prediction on (JSON) 
     model_path: path to the model (string) 
